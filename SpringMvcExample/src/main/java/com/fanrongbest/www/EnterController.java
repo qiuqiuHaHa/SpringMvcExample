@@ -10,6 +10,7 @@ public class EnterController {
 	
 	@RequestMapping("/helloWorld")
 	public String helloWorld(){
+		System.out.println("just now, it's a test");
 		 return "success";
 	 }
 	
